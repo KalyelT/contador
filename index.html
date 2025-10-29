@@ -4,11 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="scripts.js" defer></script>
     </head>
     <body>
         <div id="contador">
         <h1>Contador de Cliques</h1>
-        <button id="clickaqui">Clique aqui</button>
+        <button id="clickaqui" aria-pressed="false">Clique aqui</button>
+            <button id="reset" type="button">Reset</button>
+            <p id="numeroContador" aria-live="polite">Número de cliques: 0</p>
         </div>
     </body>
 </html>
